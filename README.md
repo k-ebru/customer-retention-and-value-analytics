@@ -96,18 +96,6 @@ commercial team can actually act on.
   the largest leak is right after the first order. A welcome series or a second
   purchase incentive would lift the whole retention curve.
 
-## My contribution
-
-I did the full analysis workflow: cleaning the transaction data, building the
-cohort retention logic, creating the RFM segmentation, writing SQL versions of
-the main checks, producing the figures and turning the results into business
-recommendations.
-
-The main thing I wanted to show is that customer analytics should lead to a
-decision. In this case, the strongest actions are protecting high value
-customers, reactivating At Risk customers and improving the second purchase
-journey.
-
 ## Interactive dashboard
 
 `dashboard/app.py` is a Streamlit app that lets a non technical user explore the
@@ -126,7 +114,7 @@ streamlit run dashboard/app.py
 ## Repository layout
 
 ```
-customer-retention-rfm/
+Customer-Retention-and-Value-Analytics/
   README.md
   requirements.txt
   run_analysis.py            full pipeline: clean, analyse, save figures
